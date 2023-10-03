@@ -1,0 +1,229 @@
+
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*header part*/
+
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  .logo img {
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 10px;
+  }
+  .wb{
+    height: 150px;
+    width: 200px;
+    cursor: pointer;
+    display: inline;
+    margin-left: 10px;
+
+  }
+
+  .bihar{
+    height: 50px;
+    position: absolute;
+     top: 2%;
+    left:50%;
+    translate: transform(-50%, -50%);
+    width: 60px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+   
+  }
+  .nav-links a {
+    color: #fff;
+    font-size: 36px;
+    padding: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 25px;
+    margin-bottom: 27px;
+  }
+
+  .nav-links a:hover{
+    color: #1bad27;
+  }
+
+
+
+/* main content section */
+.product-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.product-images {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.product-images img {
+    width: 110%;
+    transition: transform 0.3s;
+}
+
+.image-cards {
+    display: flex;
+    justify-content: space-between;
+    border: 1px black;
+    margin-top: 20px;
+}
+
+.image-card {
+    flex: 1;
+    overflow: hidden;
+}
+
+.image-card img {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+.image-card img:hover {
+    transform: scale(1.1);
+}
+
+.product-details {
+    flex: 1;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.product-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.product-description {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    margin-left: 20px;
+    margin-top: 10px;
+    list-style: none;
+    font-size: 20px;
+   
+}
+.price{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.buy-button {
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 18px;
+    height: 100%;
+    width: 50%s;
+    font-weight: bold;
+    padding: 10px 20px ;
+    margin-top: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #1bad27;
+}
+
+
+/* footer section*/
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 20px;
+}
+
+.footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline 
+}
+form {
+    margin-top: 20px;
+}
+
+.footer-form input[type="text"],
+.footer-form input[type="tel"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.footer-form button {
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 9px;
+}
+
+.footer-form button:hover {
+    background-color: #34af1c;
+}
